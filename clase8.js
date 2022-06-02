@@ -44,10 +44,30 @@ function factorial(num){
 console.log(factorial(10));
 */
 
-// PUNTO 5
-
+/*
 function fibonacci(num){
     let n1 = 0, n2 = 1, proximo = n1 + n2;
+    console.log(n1);
+    console.log(n2);
+
+    while (proximo <= num){
+        proximo = n1 + n2;
+        console.log(proximo);
+        n1 = n2;
+        n2 = proximo;
+        
+    }
+    
+}
+fibonacci(55);
+*/
+
+
+// PUNTO 5
+/*
+function fibonacci(num){
+    let n1 = 0, n2 = 1;
+    let proximo = n1 + n2;
     console.log(n1);
     console.log(n2);
 
@@ -60,3 +80,4 @@ function fibonacci(num){
     
 }
 fibonacci(55);
+*/
